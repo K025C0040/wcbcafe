@@ -30,7 +30,7 @@ img{
     font-weight: normal;
 }
 .page-title,
-.header-large{
+.heading-large{
     font-size: 3rem;
     text-align: center;
 }
@@ -38,7 +38,7 @@ img{
     margin-top: 2rem;
     line-height: 1.4;
 }
-.header-large{
+.heading-large{
     margin-bottom: 1rem;
 }
 
@@ -92,4 +92,39 @@ img{
 }
 .about p{
     margin-bottom: 3rem;
+}
+
+/*フッター
+-----------------------------*/
+.page-footer{
+    background-image: url(..//images/footer-s.webp);
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+}
+.info{
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th,
+.info td{
+    border-bottom: 1px solid #c9c2bc;
+}
+.info th{
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+.info td{
+    padding: 1rem 0;
+}
+.copyright{
+    background-color: #432;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 6rem;
+    color: #fff;
 }
