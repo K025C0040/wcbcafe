@@ -59,6 +59,9 @@ img{
 }
 .btn:hover{
     background-color: #0090aa;
+    scale: 1.2;
+    rotate: -5deg;
+    translate: 10px;
 }
 
 /*ヘッダー
@@ -154,7 +157,7 @@ img{
         font-size: 2rem;
     }
 
-    
+
     /*HOME*/
     .cover-home{
         background-image: url(../images/cover-home-l.webp);
